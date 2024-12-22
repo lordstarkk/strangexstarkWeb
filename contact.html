@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nirbhay's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link style="border-radius: 50%;" rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Logo" class="logo-img">
+                <p id="name">STRANGE X STARK</p>
+            </a>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="contact-text">I'd love to hear from you! Whether you have a question, a suggestion, or just want to connect, feel free to reach out using the form below.</p>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+            <input type="hidden" name="access_key" value="517de33b-0680-46e5-93b1-26a02b840967">
+            
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" required class="form-input">
+    
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" required class="form-input">
+    
+            <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" rows="4" required class="form-textarea"></textarea>
+    
+            <button type="submit" class="form-button">Send Message</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>Social Media Handles</p>
+        <div class="social-links">
+            <a href="https://x.com/strangexstark" target="_blank" class="social-link">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://github.com/lordstarkk" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.facebook.com/strangexstark" target="_blank" class="social-link">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/strangexstark_/" target="_blank" class="social-link">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+        <p>&copy; 2024 Nirbhay's Portfolio | All rights reserved</p>
+    </footer>
+</body>
+</html>
