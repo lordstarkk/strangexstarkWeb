@@ -1,21 +1,34 @@
-# My Personal Website 🌐
+# strangexstarkWeb
 
-Welcome to the repository for my personal website! 🚀 This website serves as a platform to share details about myself, my interests, and my projects.
+Personal portfolio website showcasing projects, skills, and technical work.
 
-## About the Website
-- **Purpose**: To showcase my profile, skills, and work in an accessible and professional way.
-- **Technologies Used**:  
-  - HTML  
-  - CSS  
+---
 
+## Purpose
+This repository contains the source code for my personal portfolio site.  
+It serves as a stable public showcase of selected projects and technical capabilities.
 
-## Features
-1. **Homepage**: An introduction to who I am and what I do.
-3. **Contact**: A section with my social media links and a contact form to reach me.
-4. **About me**: A page which tells about me
-5. **Projects**: A section where you can my find my projects
+Unlike experimental or lab-based projects, this site focuses on clarity, presentation, and long-term reliability.
 
-## Visit Website
-- [Website](https://lordstarkk.github.io/strangexstarkWeb/index.html)
+---
 
-## Repository Structure
+## What it includes
+- Project highlights and summaries
+- Skills and technology stack overview
+- Basic personal and contact information
+- Clean, responsive layout
+
+---
+
+## Tech Stack
+HTML • CSS • JavaScript
+
+---
+
+## Status
+Stable — maintained as a public showcase.
+
+## Notes
+Major experiments, in-depth builds, and ongoing systems are developed separately and may be linked from this site.
+
+This repository is intentionally kept minimal and focused.
